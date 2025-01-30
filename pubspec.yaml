@@ -1,0 +1,23 @@
+name: gestione_valori
+description: Un'app Flutter per la gestione dei valori con comandi vocali.
+
+# Impostazioni SDK di Flutter
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  speech_to_text: ^6.1.1  # Assicurati di avere questa riga
+  shared_preferences: ^2.2.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
